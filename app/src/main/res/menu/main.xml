@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+    <item android:id="@+id/action_settings"
+        android:title="Settings"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+         />
+    <item android:id="@+id/refresh"
+        android:title="Refresh"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/source"
+        android:title="Winnipeg Press"
+        android:orderInCategory="102"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/source2"
+        android:title="Talk Sport"
+        android:orderInCategory="103"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/fontSize"
+        android:title="Font Size"
+        android:orderInCategory="104"
+        app:showAsAction="never"
+        />
+</menu>
